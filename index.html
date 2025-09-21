@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Kỹ Sư Cơ Khí</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="gear-container">
+            <i class="fas fa-cog gear-1"></i>
+            <i class="fas fa-cog gear-2"></i>
+        </div>
+        <p class="loading-text">Đang tải CV...</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="nav-name">
+                <i class="fas fa-user-tie me-2"></i>
+                <span>Loading...</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Kinh nghiệm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Kỹ năng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Học vấn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Dự án</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title" id="hero-name">Loading...</h1>
+                        <h2 class="hero-subtitle" id="hero-title">Loading...</h2>
+                        <p class="hero-description" id="hero-description">Loading...</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-envelope me-2"></i>Liên hệ
+                            </a>
+                            <a href="#" class="btn btn-outline-light btn-lg" id="download-cv">
+                                <i class="fas fa-download me-2"></i>Tải CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="public/profile-man.jpg" alt="Profile" class="profile-img" id="hero-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Giới thiệu</h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <p class="about-text" id="about-description">Loading...</p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <h3 id="years-experience">0</h3>
+                                <p>Năm kinh nghiệm</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 id="projects-completed">0</h3>
+                                <p>Dự án hoàn thành</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 id="certifications">0</h3>
+                                <p>Chứng chỉ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <!-- Updated workspace image to use generated mechanical workspace image -->
+                        <img src="/workspace.jpeg" alt="Workspace" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-white">Kinh nghiệm làm việc</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="timeline" id="experience-timeline">
+                        <!-- Timeline items will be loaded from JSON -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Kỹ năng chuyên môn</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4 class="mb-4">Kỹ năng kỹ thuật</h4>
+                    <div id="technical-skills">
+                        <!-- Skills will be loaded from JSON -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-4">Phần mềm</h4>
+                    <div id="software-skills">
+                        <!-- Software skills will be loaded from JSON -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Học vấn</h2>
+                </div>
+            </div>
+            <div class="row" id="education-content">
+                <!-- Education items will be loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title">Dự án nổi bật</h2>
+                </div>
+            </div>
+            <div class="row" id="projects-content">
+                <!-- Projects will be loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-white">Liên hệ</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-info">
+                        <div class="contact-item" id="contact-email">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h5>Email</h5>
+                                <p>Loading...</p>
+                            </div>
+                        </div>
+                        <div class="contact-item" id="contact-phone">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h5>Điện thoại</h5>
+                                <p>Loading...</p>
+                            </div>
+                        </div>
+                        <div class="contact-item" id="contact-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5>Địa chỉ</h5>
+                                <p>Loading...</p>
+                            </div>
+                        </div>
+                        <div class="social-links" id="social-links">
+                            <!-- Social links will be loaded from JSON -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 <span id="footer-name">Loading...</span>. Tất cả quyền được bảo lưu.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

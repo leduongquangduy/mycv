@@ -1,0 +1,111 @@
+{
+  "personalInfo": {
+    "name": "Lê Dương Quang Duy",
+    "title": "Sinh viên Kỹ Thuật Cơ Khí",
+    "description": "Sinh viên ngành Kỹ thuật Cơ khí tại Trường Đại học Sư phạm Kỹ thuật, dự kiến tốt nghiệp vào năm 2028. Đam mê thiết kế, chế tạo và tối ưu hóa hệ thống cơ khí, với định hướng phát triển thành kỹ sư cơ khí chuyên nghiệp.",
+    "profileImage": "professional-engineer-portrait.jpeg",
+    "cvDownloadLink": "#"
+  },
+  "about": {
+    "description": "Tôi là một sinh viên kỹ thuật cơ khí với niềm đam mê trong việc chế tạo và cải tiến các sản phẩm cơ khí. Tôi thường xuyên thực hiện các dự án cá nhân nhằm nâng cao kỹ năng thực tế và khả năng sáng tạo. Mục tiêu của tôi là áp dụng công nghệ và kiến thức chuyên môn để phát triển các giải pháp cơ khí hiệu quả, bền vững và ứng dụng được trong thực tiễn sản xuất.",
+    "yearsExperience": "3",
+    "projectsCompleted": 5,
+    "certifications": 2
+  },
+  "experience": [
+    {
+      "period": "2023 - Hiện tại",
+      "position": "Sinh viên ngành Kỹ thuật Cơ khí",
+      "company": "Trường Đại học Sư phạm Kỹ thuật",
+      "description": "Tham gia các đồ án học tập và dự án nghiên cứu sinh viên về thiết kế và chế tạo máy. Nâng cao kỹ năng sử dụng CAD/CAM, phân tích và mô phỏng sản phẩm cơ khí."
+    }
+  ],
+  "skills": {
+    "technical": [
+      {
+        "name": "Thiết kế CAD/CAM",
+        "level": 80
+      },
+      {
+        "name": "Gia công cơ khí",
+        "level": 75
+      },
+      {
+        "name": "Phân tích FEA cơ bản",
+        "level": 70
+      },
+      {
+        "name": "Tự động hóa cơ bản",
+        "level": 65
+      }
+    ],
+    "software": [
+      {
+        "name": "SolidWorks",
+        "level": 80
+      },
+      {
+        "name": "AutoCAD",
+        "level": 75
+      },
+      {
+        "name": "Fusion 360",
+        "level": 70
+      },
+      {
+        "name": "MATLAB",
+        "level": 65
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "Kỹ sư Kỹ thuật Cơ khí (dự kiến)",
+      "institution": "Trường Đại học Sư phạm Kỹ thuật",
+      "period": "2023 - 2028",
+      "description": "Đang theo học chương trình Kỹ thuật Cơ khí. Tham gia các dự án chế tạo và nghiên cứu khoa học sinh viên, định hướng thiết kế và phát triển hệ thống cơ khí hiện đại."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Máy cắt CNC mini",
+      "description": "Dự án cá nhân chế tạo máy CNC mini phục vụ cắt khắc gỗ và nhôm mỏng. Hệ thống điều khiển bằng Arduino kết hợp phần mềm điều khiển CNC.",
+      "technologies": "SolidWorks, Arduino, Stepper Motor, G-code",
+      "image": "/cnc-machine-design.jpg"
+    },
+    {
+      "title": "Xe robot 4 bánh điều khiển từ xa",
+      "description": "Thiết kế và chế tạo xe robot 4 bánh có khả năng điều khiển từ xa qua Bluetooth, ứng dụng trong học tập và nghiên cứu cơ điện tử.",
+      "technologies": "Fusion 360, Arduino, Bluetooth Module, DC Motor",
+      "image": "/lean-manufacturing-process.jpg"
+    },
+    {
+      "title": "Máy ép nhựa thủ công",
+      "description": "Tự thiết kế và lắp ráp máy ép nhựa mini để tái chế nhựa thải thành các sản phẩm nhỏ như tấm nhựa, chi tiết kỹ thuật.",
+      "technologies": "Thiết kế cơ khí, gia công cơ khí, hàn điện",
+      "image": "/industrial-automation-system.jpg"
+    }
+  ],
+  "contact": {
+    "email": "leduongquangduy@email.com",
+    "phone": "+84 987 654 321",
+    "location": "TP. Hồ Chí Minh, Việt Nam",
+    "social": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/leduongquangduy",
+        "icon": "fab fa-linkedin-in"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/leduongquangduy",
+        "icon": "fab fa-github"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/leduongquangduy",
+        "icon": "fab fa-facebook-f"
+      }
+    ]
+  }
+}
