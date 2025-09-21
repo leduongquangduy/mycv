@@ -71,19 +71,19 @@
       "title": "Máy cắt CNC mini",
       "description": "Dự án cá nhân chế tạo máy CNC mini phục vụ cắt khắc gỗ và nhôm mỏng. Hệ thống điều khiển bằng Arduino kết hợp phần mềm điều khiển CNC.",
       "technologies": "SolidWorks, Arduino, Stepper Motor, G-code",
-      "image": "/cnc-machine-design.jpg"
+      "image": "cnc-machine-design.jpg"
     },
     {
       "title": "Xe robot 4 bánh điều khiển từ xa",
       "description": "Thiết kế và chế tạo xe robot 4 bánh có khả năng điều khiển từ xa qua Bluetooth, ứng dụng trong học tập và nghiên cứu cơ điện tử.",
       "technologies": "Fusion 360, Arduino, Bluetooth Module, DC Motor",
-      "image": "/lean-manufacturing-process.jpg"
+      "image": "lean-manufacturing-process.jpg"
     },
     {
       "title": "Máy ép nhựa thủ công",
       "description": "Tự thiết kế và lắp ráp máy ép nhựa mini để tái chế nhựa thải thành các sản phẩm nhỏ như tấm nhựa, chi tiết kỹ thuật.",
       "technologies": "Thiết kế cơ khí, gia công cơ khí, hàn điện",
-      "image": "/industrial-automation-system.jpg"
+      "image": "industrial-automation-system.jpg"
     }
   ],
   "contact": {
