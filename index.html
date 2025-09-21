@@ -122,7 +122,7 @@
                 <div class="col-lg-6">
                     <div class="about-image">
                         <!-- Updated workspace image to use generated mechanical workspace image -->
-                        <img src="/workspace.jpeg" alt="Workspace" class="img-fluid rounded">
+                        <img src="public/mechanical-workspace.jpg" alt="Workspace" class="img-fluid rounded">
                     </div>
                 </div>
             </div>
@@ -208,32 +208,43 @@
                     <h2 class="section-title text-white">Liên hệ</h2>
                 </div>
             </div>
-            <div class="justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-info">
-                        <div class="contact-item" id="contact-email">
-                            <i class="fas fa-envelope"></i>
-                            <div>
+            <!-- Improved contact section layout with better grid structure and centering -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="contact-item text-center" id="contact-email">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
                                 <h5>Email</h5>
                                 <p>Loading...</p>
                             </div>
                         </div>
-                        <div class="contact-item" id="contact-phone">
-                            <i class="fas fa-phone"></i>
-                            <div>
+                        <div class="col-md-4 mb-4">
+                            <div class="contact-item text-center" id="contact-phone">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
                                 <h5>Điện thoại</h5>
                                 <p>Loading...</p>
                             </div>
                         </div>
-                        <div class="contact-item" id="contact-location">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
+                        <div class="col-md-4 mb-4">
+                            <div class="contact-item text-center" id="contact-location">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
                                 <h5>Địa chỉ</h5>
                                 <p>Loading...</p>
                             </div>
                         </div>
-                        <div class="social-links" id="social-links">
-                            <!-- Social links will be loaded from JSON -->
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="social-links text-center mt-4" id="social-links">
+                                <!-- Social links will be loaded from JSON -->
+                            </div>
                         </div>
                     </div>
                 </div>
